@@ -64,7 +64,6 @@ public class PlayerController : MonoBehaviour
         distanceToGround = GetComponent<Collider>().bounds.extents.y;
 
     }
-
     private void ReLoad()
     {
         SceneManager.LoadScene(0);
